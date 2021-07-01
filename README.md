@@ -37,6 +37,10 @@ Users should be able to:
 ### What I learned
 
 ```css
+body {
+  overflow-x: hidden; /* Remove extra space at the right side */
+}
+
 .info-container {
   flex-grow: 1;
   flex-basis: 0; /* Change flex-basis property form auto (default) -> 0 */
@@ -51,6 +55,8 @@ Users should be able to:
 ### Useful resources
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) - This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart.
+
+- [Remove Right Side Extra White Space from Website](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
 
 ## Author
 
